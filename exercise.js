@@ -1,6 +1,7 @@
 function sortPeopleByAge(arr) {
-  
-}
+  const sortingByAge = arr.sort((a, b) => a.age - b.age);
+  return sortingByAge;
+};
 
 const people = [
   { name: 'Paul', age: 16 },
